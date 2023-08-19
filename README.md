@@ -1,4 +1,4 @@
-# Dataset Quantization
+# Dataset Quantization for both Vision and Language Tasks
 
 Official implementation of "[Dataset Quantization]()". 
 
