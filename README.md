@@ -2,12 +2,12 @@
 
 Official implementation of "[Dataset Quantization]()". 
 
-<img src="./figs/effects.png" alt="effects" style="zoom: 33%;" />
+<p align="center"><img src="./figs/effects.png" align="center" height="400" ></p>
 
 **Dataset Quantization**
 [Daquan Zhou*](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Kai Wang*](https://kaiwang960112.github.io/), [Jianyang Gu*](https://vimar-gu.github.io/), [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=en), [Dongze Lian](https://dongzelian.com/), [Yifan Zhang](https://sites.google.com/view/yifan-zhang/%E9%A6%96%E9%A1%B5), [Yang You](https://ai.comp.nus.edu.sg/), [Jiashi Feng](https://sites.google.com/site/jshfeng/) (*Equal Contribution)
 
-## Highlight :s:
+## Highlight :sparkles:​
 
 - DQ is accepted by **ICCV2023**!
 - DQ is able to generate condensed small datasets for training unseen network architectures with state-of-the-art compression ratios for lossless model training. 
