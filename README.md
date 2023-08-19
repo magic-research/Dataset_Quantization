@@ -11,7 +11,9 @@ Official implementation of "[Dataset Quantization]()".
 
 - DQ is accepted by **ICCV2023**!
 - DQ is able to generate condensed small datasets for training unseen network architectures with state-of-the-art compression ratios for lossless model training. 
-- With 60% data from ImageNet and 20% data from Alpaca’s instruction tuning data, the models can be trained with negligible or no performance drop for both vision tasks (including classification, semantic segmentation, and object detection) as well as language tasks (including instruction tuning tasks such as BBH and DROP).
+- We support both vision and language dataset compression:
+- Vision tasks: with 60% data from ImageNet, the models can be trained with no performance drop including classification, semantic segmentation, and object detection.
+- Language tasks: with 20% data from Alpaca’s instruction tuning data, the models can be trained with negligible performance on BBH, DROP, MMLU, and Human-Eval. 
 
 ## Getting Started
 
