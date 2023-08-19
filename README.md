@@ -2,7 +2,7 @@
 
 Official implementation of "[Dataset Quantization]()". (The paper will be released soon.)
 
-<p align="center"><img src="./figs/effects.png" align="center" height="400" ></p>
+<p align="center"><img src="./figs/effects.png" align="center" width="650"></p>
 
 **Dataset Quantization**
 
