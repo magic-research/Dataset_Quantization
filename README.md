@@ -1,10 +1,11 @@
 # Dataset Quantization for both Vision and Language Tasks
 
-Official implementation of "[Dataset Quantization]()". 
+Official implementation of "[Dataset Quantization]()". (The paper will be released soon.)
 
 <p align="center"><img src="./figs/effects.png" align="center" height="400" ></p>
 
 **Dataset Quantization**
+
 [Daquan Zhou*](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Kai Wang*](https://kaiwang960112.github.io/), [Jianyang Gu*](https://vimar-gu.github.io/), [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=en), [Dongze Lian](https://dongzelian.com/), [Yifan Zhang](https://sites.google.com/view/yifan-zhang/%E9%A6%96%E9%A1%B5), [Yang You](https://ai.comp.nus.edu.sg/), [Jiashi Feng](https://sites.google.com/site/jshfeng/) (*Equal Contribution)
 
 ## Highlight :sparkles:​
@@ -53,8 +54,8 @@ Dataset Quantization is conducted in the following steps:
 
 ### Data Preparation
 
-Put [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) data to `~/data_cifar`.
-Put unzipped [ImageNet](https://www.image-net.org/) data to `~/data_imagenet`.
+- Put [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) data to `~/data_cifar`.
+- Put unzipped [ImageNet](https://www.image-net.org/) data to `~/data_imagenet`.
 
 ### Quantization
 
@@ -209,3 +210,5 @@ This project is mainly developed based on the following repos:
 - [DeepCore](https://github.com/PatrickZH/DeepCore)
 - [pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
 - [pytorch-cifar](https://github.com/kuangliu/pytorch-cifar)
+
+We would like to specially thank [**Zangwei Zheng**](https://zhengzangw.github.io) for his help on the implementation of DQ in language tasks and **Ge Yan** for his advice on the mathematical proof of the submodular part. 
