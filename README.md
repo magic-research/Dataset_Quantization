@@ -147,7 +147,7 @@ Here we provide the code of DQ to compress the instruction fine-tunning datasets
 
 The extracted embeddings can be downloaded from this [link](https://drive.google.com/file/d/1cd9b_EyFpvtzBo2rLDtsSdzBfEZszMAN/view?usp=sharing). The generation fees are smaller than $1.
 
-Optionally, you can generate by yourself with the following steps, the index and num parameter can be used for parallelization.
+Optionally, you can generate the embeddings by yourself with your OPENAI key, the `--index` and `--nums` can be used for parallelization.
 
 ```bash
 python embed.py --index 0 --nums 10000
@@ -158,7 +158,7 @@ python embed.py --index 4 --nums 10000
 python embed.py --index 5 --nums 10000
 ```
 
-Then, you can merge the embeddings with the following command.
+Then, you can merge the embeddings with the following command:
 
 ```bash
 python alpaca_embed.py --merge
@@ -166,17 +166,17 @@ python alpaca_embed.py --merge
 
 ### DQ Sampling
 
-To generate the sampled dataset, you can run the following command.
+To generate the sampled dataset, you can run the following command:
 
 ```bash
 python alpaca_sample.py --ratio 0.1 --k 10
 ```
 
-We provided some sampled results in the `data/alpaca` folder for your reference.
+For your reference, we provided some sampled results in the `data/alpaca` folder.
 
 ### Training
 
-We use [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca/tree/main) to finetune the 7B llama model. Please follow the instructions in the repo to run the finetuning. For 1k sampled dataset, we use the following command to finetune the model. The hyper-parameter comes from the [LIMA](https://arxiv.org/abs/2305.11206) paper.
+We use [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca/tree/main) to finetune the 7B llama model. Please follow the instructions in the repo to run the finetuning. For the 1k sampled dataset, we use the following command to finetune the model. The hyper-parameter comes from the [LIMA](https://arxiv.org/abs/2305.11206) paper.
 
 ```bash
 torchrun --nproc_per_node=8 --master_port=<your_random_port> train.py \
@@ -213,4 +213,4 @@ This project is mainly developed based on the following repos:
 - [pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
 - [pytorch-cifar](https://github.com/kuangliu/pytorch-cifar)
 
-We would like to specially thank [**Zangwei Zheng**](https://zhengzangw.github.io) for his help on the implementation of DQ in language tasks and **Ge Yan** for his advice on the mathematical proof of the submodular part. 
+We would like to especially thank [**Zangwei Zheng**](https://zhengzangw.github.io) for his help on the implementation of DQ in language tasks and **Ge Yan** for his advice on the mathematical proof of the submodular part. 
