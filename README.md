@@ -83,6 +83,8 @@ CUDA_VISIBLE_DEVICES=0 python -u quantize_pixel.py \
     --mask_ratio 0.2 --cam_mask
 ```
 
+We have provided the selected 12.5% indices in the `data/cifar10` folder, which can be directly used for evaluation. 
+
 **ImageNet**
 
 ```bash
@@ -125,7 +127,7 @@ CUDA_VISIBLE_DEVICES=0 python validate_cifar.py \
 **ImageNet**
 
 We use `timm` for evaluating the quantized ImageNet data.
-For more instructions you can refer to the [README](./pytorch_image_models/README.md) inside the pytorch_image_models directory or the official [timm repo](https://github.com/huggingface/pytorch-image-models). 
+For more instructions you can refer to the [README](./pytorch_image_models/README.md) inside the pytorch_image_models folder or the official [timm repo](https://github.com/huggingface/pytorch-image-models). 
 
 ```bash
 cd pytorch_image_models
@@ -170,7 +172,7 @@ To generate the sampled dataset, you can run the following command.
 python alpaca_sample.py --ratio 0.1 --k 10
 ```
 
-We provided some sampled results in the data folder for your reference.
+We provided some sampled results in the `data/alpaca` folder for your reference.
 
 ### Training
 
