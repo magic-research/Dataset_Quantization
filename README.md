@@ -184,15 +184,15 @@ torchrun --nproc_per_node=8 --master_port=<your_random_port> train.py \
     --output_dir ./data/alpaca_data_k5_1k.json \
     --data_path <your_output_dir> \
     --bf16 True \
-    --num_train_epochs 15 \
+    --num_train_epochs 9 \
     --per_device_train_batch_size 4 \
-    --per_device_eval_batch_size 4 \
-    --gradient_accumulation_steps 2 \
+    --per_device_eval_batch_size 2 \
+    --gradient_accumulation_steps 4 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 2000 \
-    --save_total_limit 1 \
-    --learning_rate 1e-5 \
+    --save_steps 200 \
+    --save_total_limit 10 \
+    --learning_rate 8e-6 \
     --adam_beta2 0.95 \
     --weight_decay 0.1 \
     --lr_scheduler_type "linear" \
