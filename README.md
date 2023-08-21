@@ -6,7 +6,7 @@ Official implementation of "[Dataset Quantization]()". (The paper will be releas
 
 **Dataset Quantization**
 
-[Daquan Zhou*](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Kai Wang*](https://kaiwang960112.github.io/), [Jianyang Gu*](https://vimar-gu.github.io/), [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=en), [Dongze Lian](https://dongzelian.com/), [Yifan Zhang](https://sites.google.com/view/yifan-zhang/%E9%A6%96%E9%A1%B5), [Yang You](https://ai.comp.nus.edu.sg/), [Jiashi Feng](https://sites.google.com/site/jshfeng/) (*Equal Contribution)
+[Daquan Zhou*](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Kai Wang*](https://kaiwang960112.github.io/), [Jianyang Gu*](https://vimar-gu.github.io/), [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=en), [Dongze Lian](https://dongzelian.com/), [Yifan Zhang](https://sites.google.com/view/yifan-zhang), [Yang You](https://www.comp.nus.edu.sg/~youy/), [Jiashi Feng](https://sites.google.com/site/jshfeng/) (*Equal Contribution)
 
 ## Highlight :sparkles:​
 
