@@ -16,6 +16,9 @@ Official implementation of "[Dataset Quantization]()". (The paper will be releas
     - **Vision tasks**: with 60% data from ImageNet, the models can be trained with no performance drop including classification, semantic segmentation, and object detection.
     - **Language tasks**: with 20% data from Alpaca’s instruction tuning data, the models can be trained with negligible performance on BBH, DROP, MMLU, and Human-Eval. 
 
+## TODO List
+- [ ] ImageNet selected indices
+
 ## Getting Started
 
 Download the repo:
