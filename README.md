@@ -6,7 +6,7 @@ Official implementation of "[Dataset Quantization](https://arxiv.org/abs/2308.10
 
 **Dataset Quantization**
 
-[Daquan Zhou*](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Kai Wang*](https://kaiwang960112.github.io/), [Jianyang Gu*](https://vimar-gu.github.io/), [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=en), [Dongze Lian](https://dongzelian.com/), [Yifan Zhang](https://sites.google.com/view/yifan-zhang), [Yang You<sup>+</sup>](https://www.comp.nus.edu.sg/~youy/), [Jiashi Feng<sup>+</sup>](https://sites.google.com/site/jshfeng/) (*Equal Contribution， <sup>+</sup>Corresponding Author)
+[Daquan Zhou*](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Kai Wang*](https://kaiwang960112.github.io/), [Jianyang Gu*](https://vimar-gu.github.io/), [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=en), [Dongze Lian](https://dongzelian.com/), [Yifan Zhang](https://sites.google.com/view/yifan-zhang), [Yang You<sup>+</sup>](https://www.comp.nus.edu.sg/~youy/), [Jiashi Feng<sup>+</sup>](https://sites.google.com/site/jshfeng/) (*Equal Contribution, <sup>+</sup>Corresponding Author)
 
 ## Highlight :sparkles:​
 
@@ -217,3 +217,17 @@ This project is mainly developed based on the following repos:
 - [pytorch-cifar](https://github.com/kuangliu/pytorch-cifar)
 
 We would like to especially thank [**Zangwei Zheng**](https://zhengzangw.github.io) for his help on the implementation of DQ in language tasks and **Ge Yan** for his advice on the mathematical proof of the submodular part. 
+
+
+## Citation
+
+If you find this work helpful, please cite:
+
+```
+@article{zhou2023dataset,
+  title={Dataset Quantization},
+  author={Zhou, Daquan and Wang, Kai and Gu, Jianyang and Peng, Xiangyu and Lian, Dongze and Zhang, Yifan and You, Yang and Feng, Jiashi},
+  journal={arXiv preprint arXiv:2308.10524},
+  year={2023}
+}
+```
