@@ -1,6 +1,6 @@
 # Dataset Quantization for both Vision and Language Tasks
 
-Official implementation of "[Dataset Quantization](https://arxiv.org/abs/2308.10524)". (We release the paper!)
+Official implementation of "[Dataset Quantization](https://arxiv.org/abs/2308.10524)". 
 
 <p align="center"><img src="./figs/effects.png" align="center" width="650"></p>
 
