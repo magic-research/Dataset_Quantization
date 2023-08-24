@@ -184,7 +184,7 @@ We use [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca/tree/main)
 ```bash
 torchrun --nproc_per_node=8 --master_port=<your_random_port> train.py \
     --model_name_or_path <your_path_to_hf_converted_llama_ckpt_and_tokenizer> \
-    --output_dir ./data/alpaca_data_k5_1k.json \
+    --output_dir ./data/alpaca/alpaca_data_dq_k5_1k.json \
     --data_path <your_output_dir> \
     --bf16 True \
     --num_train_epochs 9 \
