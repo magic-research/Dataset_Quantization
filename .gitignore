@@ -112,3 +112,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# outputs
+results/
+data_cifar/
