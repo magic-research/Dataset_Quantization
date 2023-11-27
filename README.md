@@ -24,8 +24,8 @@ Official implementation of "[Dataset Quantization](https://arxiv.org/abs/2308.10
 Download the repo:
 
 ```bash
-git clone https://github.com/vimar-gu/DQ.git
-cd DQ
+git clone https://github.com/magic-research/Dataset_Quantization.git
+cd Dataset_Quantization
 ```
 
 Set up the environment:
