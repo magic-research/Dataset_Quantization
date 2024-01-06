@@ -96,7 +96,7 @@ group.add_argument('--dataset-download', action='store_true', default=False,
                     help='Allow download of dataset for torch/ and tfds/ datasets that support it.')
 group.add_argument('--class-map', default='', type=str, metavar='FILENAME',
                     help='path to class to idx mapping file (default: "")')
-group.add_argument('--select_indices', default=[], type=str, nargs='+',
+group.add_argument('--select-indices', default=[], type=str, nargs='+',
                     help='pre-defined subset indices')
 
 # Model parameters
